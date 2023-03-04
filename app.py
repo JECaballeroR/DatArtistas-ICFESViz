@@ -81,7 +81,7 @@ col1.header(f"Gráfico de barras de {seleccionbar}")
 col1.plotly_chart(barchart(df, seleccionbar), use_container_width=True)
 col2.header(f"Heampat de {eje1heatmap} vs {eje2heatmap}")
 col2.plotly_chart(hacer_heatmap(df,eje1heatmap, eje2heatmap), use_container_width=True)
-'''
+lol='''
 
 import base64
 
